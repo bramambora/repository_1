@@ -1,44 +1,40 @@
 .css-preview-wrapper {
-  padding: 10px;
-  border: solid;
-  background: url('http://cdn.backgroundhost.com/backgrounds/subtlepatterns/circles.png');
-}
-h3 {
-  color: blue;
-  text-align: center;
-  text-decoration: underline;
-  text-transform: uppercase;
-  }
-p { 
-  color: #f46; 
-  font-weight: bold; 
-  text-align: left;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 120%;
-  font-style: normal;
-  margin: 15px;
-  padding-bottom: 30px;
-  border: 3px dotted lightblue;
-  float: none;
+  	.content {
+      display: inline;
+      padding: .4em;
+      background: #0D6AB7; 
+      color: darkred;
+      font-size: 200%;
+      line-height: 1.5em;
+      text-align: justify;
+      text-justify: inter-word;
+    }
+    body {
+      background-image: url(pexels-photo-665194.jpeg);
+      width: 70%;
+      background-repeat: no-repeat;
+      background-blend-mode: normal;
+      background-position: right;
+    }
+    .zanr {
+      font-style: italic;
+      text-decoration: underline;
+      text-transform: lowercase;
+    }
     
-}
-h4 {
-  color: blue;
-  text-decoration: underline;
-  text-transform: uppercase;
-  font-size: 120%;
-}
-ul {
-  color: darkblue;
-  text-transform: uppercase;
-  font-weight: bold;
-  border: 3px dotted lightblue;
-}
-blockquote {
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 120%;
-  border: 3px dotted lightblue;
-}
-  
+    h1 {
+      color: darkred;
+      font-family: Times New Roman, serif;
+      font-size-adjust: 2em;
+      text-align: left;
+    }
+    .autor, .name {
+      font-weight: bold;
+      font-size: 0,7em;
+    }
+    .zdroj{
+      font-size: 0,7em;
+      font-style: italic;
+    }  
+ }
+     
